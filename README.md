@@ -34,15 +34,7 @@ upgrade:
   upgrade-script: classpath:/upgrade/datahub_ugrade_v1.0.0.sql
 ```
 
-<div style="width:770px;height:450px;margin:50px 0px">
-   <img alt="upgrade-set.png" src="/images/upgrade-set.png" width="770" height="450"/>
-</div>
-
-5、 在第4步配置的sql脚本目录添加脚本文件，如下:
-
-<div style="width:770px;height:450px;margin:50px 0px">
-   <img alt="upgrade-sql.png" src="/images/upgrade-sql.png" width="770" height="450"/>
-</div>
+5、 在第4步配置的sql脚本目录添加脚本文件
 
 6、 在服务启动类中添加@EnableUpgrade注解，如下:
 
